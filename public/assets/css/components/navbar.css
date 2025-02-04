@@ -1,0 +1,103 @@
+#menu-container {
+    position: fixed;
+    top: 0;
+    left: -400px; /* Caché par défaut */
+    width: 400px;
+    height: 100vh;
+    background: var(--raisin-black);
+    transition: transform 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bouton Logo (attaché au menu et décalé un peu plus à gauche) */
+#menu-toggle {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-60%, -50%); /* Décalage X = plus à gauche */
+    width: 100px; /* Agrandir légèrement */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+/* Ajuster la taille du logo */
+#menu-toggle img {
+    height: 150px;
+    width: auto;
+}
+
+/* Ouvrir le menu avec un slide propre */
+.menu-open {
+    transform: translateX(400px);
+}
+
+/* Barre latérale */
+nav {
+    width: 100%;
+    padding-top: 80px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* Sous-menu */
+.submenu .submenu-items {
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    background: var(--raisin-black);
+}
+
+.submenu.open .submenu-items {
+    display: block;
+}
+
+.submenu-items li {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Ouvrir le menu et le logo en même temps */
+.menu-open {
+    transform: translateX(400px);
+}
+/* Animation du logo qui "gigote" */
+@keyframes wiggle {
+    0% { transform: translate(-60%, -50%) rotate(0deg); }
+    25% { transform: translate(-60%, -50%) rotate(5deg); }
+    50% { transform: translate(-60%, -50%) rotate(-5deg); }
+    75% { transform: translate(-60%, -50%) rotate(3deg); }
+    100% { transform: translate(-60%, -50%) rotate(0deg); }
+}
+
+/* Appliquer l'animation au chargement */
+#menu-toggle {
+    animation: wiggle 0.5s ease-in-out 1; /* Dure 1s, se joue une seule fois */
+    animation-delay: 3s; /* Se déclenche après 5s */
+}

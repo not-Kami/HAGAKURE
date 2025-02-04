@@ -1,0 +1,41 @@
+HAGAKURE/
+├── app/
+│   ├── controllers/
+│   │   └── PageController.php    # Gère le rendu des pages en MVC
+│   ├── views/
+│   │   ├── components/
+│   │   │   ├── navbar.php        # Menu latéral animé
+│   │   │   ├── footer.php        # Pied de page
+│   │   ├── pages/
+│   │   │   ├── home.php          # Page d'accueil test
+│   │   │   ├── shop.php          # Page boutique
+│   │   │   ├── galerie.php       # Galerie photos
+│   │   │   ├── contact.php       # Page de contact
+│   │   │   ├── booking.php       # Réservation de kimono
+│   │   │   ├── hagakure_kc.php   # Histoire du club et du karaté
+│   │   │   └── 404.php           # Page d'erreur
+│   │   ├── layout.php            # Layout global (header, footer, CSS dynamique)
+│   └── models/                    # (Préparation pour potentielle base de données)
+├── public/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   ├── base.css          # Styles globaux
+│   │   │   ├── menu.css          # Menu latéral animé
+│   │   │   ├── components/
+│   │   │   │   ├── navbar.css    # Styles spécifiques à la navbar
+│   │   │   │   ├── footer.css    # Styles du footer
+│   │   │   ├── pages/
+│   │   │   │   ├── home.css      # Styles de la page d'accueil
+│   │   │   │   ├── shop.css      # Styles de la boutique
+│   │   │   │   ├── galerie.css   # Styles de la galerie
+│   │   │   │   ├── contact.css   # Styles du contact
+│   │   │   │   ├── booking.css   # Styles de réservation
+│   │   ├── js/
+│   │   │   ├── menu.js           # Gestion JS du menu latéral et animation du logo
+│   │   │   ├── main.js           # (Fichier JS global si besoin)
+│   │   └── img/
+│   │       ├── logo_rvb_1.svg    # Logo utilisé dans le menu
+│   └── index.php                 # Point d'entrée unique (Front Controller)
+├── Dockerfile                     # Configuration Docker
+├── docker-compose.yml              # Orchestration des services Docker
+└── README.md                       # Documentation du projet
