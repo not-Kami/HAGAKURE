@@ -8,8 +8,8 @@ class PageController {
         'hagakure'   => 'hagakure',
         'gallery'       => 'gallery',
         'booking'       => 'booking',
-        'contact'       => 'contact'
-
+        'contact'       => 'contact',
+        'shop'       => 'shop'
     ];
 
     public function render($page) {
