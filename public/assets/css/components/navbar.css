@@ -9,6 +9,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
 }
 
 /* Bouton Logo (attaché au menu et décalé un peu plus à gauche) */
@@ -41,10 +43,6 @@
     color:#fafafa;
 }
 
-.menu-open {
-    align-items: center;
-    justify-content: center;
-}
 
 /* Barre latérale */
 nav {
