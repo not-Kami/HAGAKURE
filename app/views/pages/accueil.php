@@ -4,6 +4,7 @@
     <?php include __DIR__ . '/../components/hero.php'; ?>
     
     <section id="#horaire">
+        <h2>Horaires</h2>
         <div class="cards" >
             <ul>
                 <li>Mardi
@@ -35,7 +36,6 @@
                 </li>
             </ul>
         </div>
-    <h2>Horaires</h2>
     <img src="/public\assets\img\horaires_img.png" alt="Image d'un dojo">
     </section>
 </section>

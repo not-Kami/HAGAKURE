@@ -1,6 +1,8 @@
+
 body{
 background-color: #fafafa;
 }
+
 
 :root {
     --raisin-black: #272727;
@@ -62,22 +64,66 @@ background-color: #fafafa;
         color:#fafafa;
       }
     
-
-      .btn-primary, .btn-secondary {
-        transition: background-color 0.3s ease, transform 0.3s ease;
-      }
-      
-      .btn-primary:hover {
-        background-color: #fafafa; /* Darker shade on hover */
-        transform: scale(1.2); /* Slightly increases size */
-        border-color: #fafafa;
-        color:#272727;
-      }
-      
-      .btn-secondary:hover {
-        background-color: #fafafa; /* Darker shade on hover */
-        transform: scale(1.2); /* Slightly increases size */
-        border-color: #fafafa;
-        color: #e3201b;
-      }
-  
+        .p-light {
+            font-family:lato;
+            font-size: 1.1em;
+            color: #fafafa;
+        }
+    
+        .p-dark {
+            font-family:lato;
+            font-size: 1.1em;
+            color: #272727;
+    
+        }
+    
+        .btn {
+        display:block;
+        }
+    
+        .btn-secondary {
+            width: 150px; 
+            height: 50px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #e3201b;
+            font-family: lato;
+            border: solid;
+            border-color: #e3201b;
+            text-align: center;
+            color:#fafafa;
+          }
+    
+          .btn-primary {
+            width: 150px; 
+            height: 50px; 
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #272727;
+            font-family: lato;
+            border: solid;
+            border-color: #272727;
+            text-align: center;
+            color:#fafafa;
+          }
+    
+    
+          .btn-primary, .btn-secondary {
+            transition: background-color 0.3s ease, transform 0.3s ease;
+          }
+    
+          .btn-primary:hover {
+            background-color: #fafafa; 
+            transform: scale(1.2);
+            border-color: #fafafa;
+            color:#272727;
+          }
+    
+          .btn-secondary:hover {
+            background-color: #fafafa; 
+            transform: scale(1.2);
+            border-color: #fafafa;
+            color: #e3201b;
+          }

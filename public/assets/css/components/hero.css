@@ -29,4 +29,34 @@
     display: flex; /* or grid */
     flex-direction: row;
     gap: 2em; /* Adds spacing between buttons */
+=======
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+  min-height:100vh ;
+
+}
+  .main {
+      background-image: url('/public/assets/img/HOME.png'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat;
+  }
+.left {
+  display:flex;
+  flex-direction:row;
+  width: 50%;
+}
+
+.right {
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex; 
+  flex-direction: row;
+  gap: 2em;
 }

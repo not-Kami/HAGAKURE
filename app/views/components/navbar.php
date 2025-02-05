@@ -47,7 +47,7 @@ $isMobile = preg_match('/Mobile|Android|iPhone|iPad/', $_SERVER['HTTP_USER_AGENT
                 </ul>
             </li>
             <li><a href="?page=gallery">Galerie</a></li>
-            <li><a href="?page=contact">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </div>
