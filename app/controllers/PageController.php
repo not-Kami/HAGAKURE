@@ -5,9 +5,9 @@ class PageController {
     private $pages = [
         'accueil'       => 'accueil',
         'horaire'       => 'horaire',
-        'hagakure'   => 'hagakure',
+        'karate'   => 'karate',
         'gallery'       => 'gallery',
-        'booking'       => 'booking',
+        'histoire'       => 'histoire',
         'contact'       => 'contact',
         'shop'       => 'shop'
     ];
