@@ -12,7 +12,6 @@
             <a href="#contact"><button class="btn-primary">Contactez-nous</button></a>
             <a href="#horaire"><button class="btn-secondary">Horaire</button></a>
         </div>
-        </div>
-       
+</div>   
     </div>
 </section>
