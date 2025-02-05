@@ -4,16 +4,16 @@
             <!-- Colonne gauche -->
             <div class="footer-column">
                 <div class="social-icons">
-                    <a href="#"><img src="?" alt="email"></a>
-                    <a href="#"><img src="?" alt="Facebook"></a>
-                    <a href="#"><img src="?" alt="Téléphone"></a>
+                    <a href="#"><img src="../public/assets/img/courrier.png" alt="email"></a>
+                    <a href="#"><img src="../public/assets/img/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="../public/assets/img/telephone.png" alt="Téléphone"></a>
 
                 </div>
                 <div> 
                     <h3 class="club-name">Hagakure Karate Club</h3>
                     <p>Hall omnisports - Stade Gaston Reiff</p>
                     <p>Rue Ernest Laurent 215<br>1420 Braine-l'Alleud</p>
-                    <img class= "club-logo" src= "public\assets\img\logo_rvb_1.svg" alt="Logo Club">
+                    <img class="club-logo" src="../public/assets/img/logo_rvb_1.svg" alt="Logo Club">
 
                 </div>
             </div>
@@ -45,7 +45,7 @@
         </div>
 
         <div class="footer-bottom">
-            <p>© 2025 HAGAKURE KC. All rights reserved.</p>
+            <p>© <?php echo date("Y"); ?> HAGAKURE KC. All rights reserved.</p>
         </div>
     </footer>
 
