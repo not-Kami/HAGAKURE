@@ -1,3 +1,18 @@
-#horaire{
-    background-color: red;
+
+.horaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #272727;
+
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    min-height: 15vh;
+    background-color: #272727;
+}
+

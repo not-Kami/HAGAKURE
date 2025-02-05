@@ -5,10 +5,10 @@
     --color-third: #fafafa;
 }
 
-body{
+body, html {
     background-color: #fafafa;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     }
 .h1-hero {
             font-size: 3rem;
@@ -60,9 +60,24 @@ body{
             text-align: center;
             color:#fafafa;
           }
+
+          .btn-form {
+            width: 150px; 
+            height: 50px; 
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #272727;
+            font-family: lato;
+            border: solid;
+            border-color: #272727;
+            text-align: center;
+            color:#fafafa;
+          }
     
     
-          .btn-primary, .btn-secondary {
+    
+          .btn-primary, .btn-secondary, .btn-form {
             transition: background-color 0.3s ease, transform 0.3s ease;
           }
     
@@ -70,6 +85,13 @@ body{
             background-color: #fafafa; 
             transform: scale(1.2);
             border-color: #fafafa;
+            color:#272727;
+          }
+
+          .btn-form:hover {
+            background-color: #fafafa; 
+            transform: scale(1.2);
+            border-color: #272727;
             color:#272727;
           }
     
