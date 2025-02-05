@@ -3,7 +3,10 @@
     --color-secondary: #e3201b;
     --color-third: #fafafa;
 }
-
+    .btn {
+    display:block;
+    }
+    
     .btn-secondary {
         width: 150px; /* Set a fixed width */
         height: 50px; /* Set a fixed height */

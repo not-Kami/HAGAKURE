@@ -1,0 +1,9 @@
+
+
+
+.button-container {
+    display: flex; /* or grid */
+    flex-direction: row;
+    row-gap: 2em; /* Adds spacing between buttons */
+  }
+  
