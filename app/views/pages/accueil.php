@@ -2,6 +2,7 @@
 <section class="home-container" >
     
     <?php include __DIR__ . '/../components/hero.php'; ?>
+
     
     <section class="horaire" id="#horaire">
 
@@ -19,4 +20,10 @@
 
     <img src="/public\assets\img\horaires_img.png" alt="Image d'un dojo">
     </section>
+
+    <?php include __DIR__ . '/../components/horaire.php'; ?>
+    <?php include __DIR__ . '/../components/licence.php'; ?>
+    <?php include __DIR__ . '/../components/shop.php'; ?>
+    <?php include __DIR__ . '/../components/gallery.php'; ?>
+
 </section>

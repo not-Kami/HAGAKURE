@@ -1,88 +1,145 @@
-/* Footer Styles */
+
+
+:root {
+    --background-color: #272727;
+    --text-color: #f5f5f5;
+    --accent-color: red;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* FOOTER STYLES */
 footer {
-    background: var(--raisin-black); /* Dark background */
-    color: var(--secondary-color); /* White text */
+    background: var(--background-color);
+    color: var(--text-color);
     padding: 40px 20px;
+    text-align: center;
+}
+
+/* Conteneur du footer */
+.footer-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
     text-align: left;
 }
 
-/* Sections inside footer */
-footer section {
-    flex: 1;
-    min-width: 200px; /* Ensures proper stacking on smaller screens */
+/* Colonne */
+.footer-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
     margin: 10px;
 }
 
-/* Section Titles */
-footer h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-/* Links */
-footer a {
-    color: var(--secondary-color);
-    text-decoration: none;
-    display: block;
-    margin: 5px 0;
-    font-size: 14px;
-}
-
-footer a:hover {
-    color: red;
-}
-
-/* Horizontal Separator */
-footer hr {
-    border: 1px solid var(--secondary-color);
-    width: 50%;
-    margin: 10px 0;
-}
-
-/* Contact Section */
-footer p {
-    font-size: 14px;
-    margin: 5px 0;
-}
-
-/* Social Icons */
-footer section:last-child {
+/* Icônes Réseaux Sociaux */
+.social-icons {
     display: flex;
-    justify-content: center;
+    flex-direction:row;
     gap: 15px;
-    align-items: center;
 }
 
-footer section:last-child a {
-    display: inline-block;
-}
-
-footer section:last-child img {
-    width: 40px; /* Adjust icon size */
+.social-icons img {
+    width: 30px;
     height: auto;
-    transition: transform 0.3s ease-in-out;
+  
 }
 
-footer section:last-child img:hover {
+.social-icons img:hover {
     transform: scale(1.1);
 }
 
-/* Responsive */
+/* Club name */
+.club-name {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* Club Logo */
+.club-logo {
+    width: 100px;
+    margin-top: 10px;
+}
+
+/* Navigation */
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-nav li {
+    margin: 10px 0;
+}
+
+.footer-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-nav a:hover {
+    color: var(--accent-color);
+}
+
+/* Liens Externes */
+
+.external-links-group{
+    display: flex; 
+    flex-direction: column;
+    text-align: right;
+    row-gap: 2; 
+}
+
+.external-links-title {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.external-links {
+
+    list-style: none;
+    padding: 0;
+}
+
+.external-links li {
+    margin: 10px 0;
+}
+
+.external-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.external-links a:hover {
+    color: var(--accent-color);
+}
+
+/* Pied de page */
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--accent-color);
+}
+
+/* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
-    footer {
+    .footer-container {
         flex-direction: column;
         text-align: center;
     }
 
-    footer section {
-        margin-bottom: 20px;
-    }
-
-    footer section:last-child {
+    .social-icons {
         justify-content: center;
     }
 }

@@ -1,29 +1,53 @@
-<footer>
-    <section>
-        <h3>JK Headquarters</h3><br>
-        <h3>Site officiel JKA Belgium</h3>
-        <h3>JKA Europe</h3>
-        <h3>License</h3>
-        <hr>
-        <a href="#">Mention légale</a>
-        <a href="#">Politique de confidentalité</a>
-        <a href="#">A propos</a>
-    </section>
-    <section>
-        <h3>Hagakure Karate Club </h3>
-        Hall omnisports - Stade Gaston Reiff<br>
-        Rue Ernest Laurent 215 1420 Braine-L'Alleud
-    </p>
-    </section>
-    <section>
-        <h3>Contact:</h3>
-        <p>Joël Vandommele - président du club</p><br>
-        <p>0496/77.98.74</p>
-    </section>
-    <section>
-        <a href=""><img src="/public\assets\img\Layout_LogoHagakure.png" alt="Logo Hagakura"></a> 
-        <a href=""><img src="/public\assets\img\Layout_icon_courrier.png" alt="icone"></a> 
-        <a href=""><img src="/public\assets\img\Layout_icon_facebook.png" alt="icone"></a>
-        <a href=""><img src="/public\assets\img\Layout_icon_telephone.png" alt="icone"></a>
-    </section>
-</footer>
+    <footer>
+        <div class="footer-container">
+
+            <!-- Colonne gauche -->
+            <div class="footer-column">
+                <div class="social-icons">
+                    <a href="#"><img src="../public/assets/img/courrier.png" alt="email"></a>
+                    <a href="#"><img src="../public/assets/img/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="../public/assets/img/telephone.png" alt="Téléphone"></a>
+
+                </div>
+                <div> 
+                    <h3 class="club-name">Hagakure Karate Club</h3>
+                    <p>Hall omnisports - Stade Gaston Reiff</p>
+                    <p>Rue Ernest Laurent 215<br>1420 Braine-l'Alleud</p>
+                    <img class="club-logo" src="../public/assets/img/logo_rvb_1.svg" alt="Logo Club">
+
+                </div>
+            </div>
+
+            <!-- Colonne centrale -->
+            <div class="footer-column">
+                <ul class="footer-nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">HAKAGURE ▼</a></li>
+                    <li><a href="#">GALERIE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <!-- Colonne droite -->
+            <div class="footer-column">
+                <div class= "external-links-group">
+                    <h3 class="external-links-title">Liens externes</h3>
+                    <ul class="external-links">
+                        <li><a href="#">Site officiel JKA Belgium</a></li>
+                        <li><a href="#">JKA Europe</a></li>
+                        <li><a href="#">JK Headquarters</a></li>
+                        <li><a href="#">Licence</a></li>
+                </div>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <?php echo date("Y"); ?> HAGAKURE KC. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
