@@ -1,4 +1,3 @@
-
  <section class="hero">
     <div class="main">
         <div class="left">
@@ -11,12 +10,6 @@
             </p>
         </div>
     </div>
-    <div class="btn">
-                <a href="/explore" class="btn btn-primary">
-                    Start Exploring
-                </a>
-                <a href="/about" class="btn btn-secondary">
-                    Learn More
-                </a>
-    </div>
+    <a href="#contact"><button class="btn-primary">Contactez-nous</button></a>
+    <a href="#horaire"><button class="btn-secondary">Horaire</button></a>
 </section>

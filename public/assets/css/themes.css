@@ -3,3 +3,10 @@
     --color-secondary: #e3201b;
     --color-third: #fafafa;
 }
+
+button .btn-primary {
+
+    background-color: #e3201b;
+    font-family: lato;
+    color: #e3201b;
+    }
