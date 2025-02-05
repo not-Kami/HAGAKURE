@@ -1,33 +1,28 @@
-    <div class="footer-container">
-        <div class="footer-links">
-            <p>Quick Links:</p>
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Our Fleet</li>
-                <li>Pricing</li>
-                <li>Destinations & Itineraries</li>
-                <li>Contact</li>
-                <li>FAQs</li>
-            </ul>
-        </div>
-        <div class="footer-contact">
-            <p>Contact Information:</p>
-            <p>Phone: 02/333 45 45 45</p>
-            <p>Email: info@wildcampers.com</p>
-            <p>Address: 23 Moutain road, 5555 Yukon, Canada</p>
-        </div>
-        <div class="footer-legal">
-            <p>Legal:</p>
-            <ul>
-                <li>Terms of Service</li>
-                <li>Privacy Policy</li>
-            </ul>
-        </div>
-    </div>
-    <p class="footer-copy">© 2024 WildCampers. All rights reserved.</p><div class="social-links">
-        <div class="social-links">
-            <a href="https://facebook.com"><img src="img/facebook.svg" alt="Facebook"></a>
-            <a href="https://twitter.com"><img src="img/twitter-alt.svg" alt="Twitter"></a>
-            <a href="https://instagram.com"><img src="img/instagram.svg" alt="Instagram"></a>
-     </div>
+<footer>
+    <section>
+        <h4>JK Headquarters</h4><br>
+        <h4>Site officiel JKA Belgium</h4>
+        <h4>JKA Europe</h4>
+        <h4>License</h4>
+        <hr>
+        <h4>Mention légale</h4>
+        <h4>Politique de confidentalité</h4>
+        <h4>A propos</h4>
+    </section>
+    <section>
+        <h3>Hagakure Karate Club</h3>
+        <h4>Hall omnisports - Stade Gaston Reiff</h4><br>
+        <h4>Rue Ernest Laurent 215 1420 Braine-L'Alleud</h4>
+    </section>
+    <section>
+        <h3>Contact:</h3>
+        <h4>Joël Vandommele - président du club</h4><br>
+        <h4>0496/77.98.74</h4>
+    </section>
+    <section>
+        <img src="/public\assets\img\Layout_LogoHagakure.png" alt="Logo Hagakura">
+        <img src="/public\assets\img\Layout_icon_courrier.png" alt="icone">
+        <img src="/public\assets\img\Layout_icon_facebook.png" alt="icone">
+        <img src="/public\assets\img\Layout_icon_telephone.png" alt="icone">
+    </section>
+</footer>

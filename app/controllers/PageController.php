@@ -5,10 +5,11 @@ class PageController {
     private $pages = [
         'accueil'       => 'accueil',
         'horaire'       => 'horaire',
-        'hagakure-kc'   => 'hagakure_kc',
-        'galerie'       => 'galerie',
+        'hagakure'   => 'hagakure',
+        'gallery'       => 'gallery',
         'booking'       => 'booking',
-        'contact'       => 'contact'
+        'contact'       => 'contact',
+        'shop'       => 'shop'
     ];
 
     public function render($page) {
