@@ -101,3 +101,79 @@ nav ul li a:hover {
     animation: wiggle 0.5s ease-in-out 1; /* Dure 1s, se joue une seule fois */
     animation-delay: 3s; /* Se déclenche après 5s */
 }
+
+/* Hide the full menu by default */
+#mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Start completely hidden */
+    width: 80%; /* Cover 80% of the screen */
+    height: 100vh;
+    background: var(--raisin-black);
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease-in-out;
+    padding-top: 60px; /* Space for the close button */
+    z-index: 1000; /* Ensure it appears above everything */
+    left: -100%; /* Position initiale */
+}
+
+/* When menu is active */
+.mobile-menu-open {
+    transform: translateX(100vw); /* Pour déplacer à partir de la position -100% */
+}
+
+/* Burger Menu Button */
+#burger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--secondary-color);
+    z-index: 1100; /* Always on top */
+}
+
+/* Menu Links */
+#mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#mobile-menu ul li {
+    padding: 15px;
+}
+
+#mobile-menu ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: color 0.3s;
+}
+
+#mobile-menu ul li a:hover {
+    color: red;
+}
+
+/* Submenu */
+.submenu .submenu-items {
+    display: none;
+}
+
+.submenu.open .submenu-items {
+    display: block;
+}
+
+/* Dark overlay when menu opens */
+#mobile-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 900;
+}

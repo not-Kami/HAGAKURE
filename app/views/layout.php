@@ -32,6 +32,6 @@
     <?php include __DIR__ . '/components/footer.php'; ?>
 
     <script src="/public/assets/js/menu.js"></script>
-
+    <script src="/public/assets/js/mobile-menu.js"></script>
 </body>
 </html>
