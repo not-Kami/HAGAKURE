@@ -1,16 +1,17 @@
-
-:root {
-    --raisin-black: #272727;
-    --color-secondary: #e3201b;
-    --color-third: #fafafa;
-}
-
-body, html {
-    background-color: #fafafa;
-    margin:0;
-    padding:0;
+    :root {
+        --raisin-black: #272727;
+        --color-secondary: #e3201b;
+        --color-third: #fafafa;
     }
-.h1-hero {
+
+    body, html {
+        background-color: #fafafa;
+        margin:0;
+        padding:0;
+
+    }
+        .h1-hero {
+            font-family: var(--font-primary);
             font-size: 3rem;
             margin: 0;
             color: #fafafa;    
@@ -101,3 +102,24 @@ body, html {
             border-color: #fafafa;
             color: #e3201b;
           }
+          
+        .cards {
+            display: flex;
+            flex-direction: column;
+            width: 15%;
+            min-height: 15vh;
+            background-color: #272727;
+        }
+     /* Sticky Logo */
+.logo-sticky {
+    position: fixed; /* Keeps it fixed while scrolling */
+    right: 20px; /* Align to the right */
+    top: 20px; /* Position at the top */
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+/* Logo Image */
+.logo-sticky img {
+    height: 100px;
+    width: auto; /* Maintain aspect ratio */
+}

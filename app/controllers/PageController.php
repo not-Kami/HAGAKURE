@@ -7,9 +7,8 @@ class PageController {
         'horaire'       => 'horaire',
         'histoire'      => 'histoire',
         'karate'        => 'karate',
-        'gallery'       => 'gallery',
-        'booking'       => 'booking',
-        'contact'       => 'contact',
+        'gallery'       => 'gallery', 
+        'contact'       => 'contact', // intégration map comme composante //
         'shop'          => 'shop'
     ];
 
