@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/public/assets/css/components/navbar.css">
     <link rel="stylesheet" href="/public/assets/css/components/footer.css">
     <link rel="stylesheet" href="/public/assets/css/components/contact.css">
-    
+
+
 
 
     <?php
