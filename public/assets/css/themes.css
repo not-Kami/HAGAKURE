@@ -1,21 +1,68 @@
 
+body{
+background-color: #fafafa;
+}
+
+
 :root {
     --raisin-black: #272727;
     --color-secondary: #e3201b;
     --color-third: #fafafa;
 }
 
-body{
-    background-color: #fafafa;
+    .h1-hero {
+        
+        font-size: 3rem;
+        margin: 0;
+        color: #fafafa;
+
+
     }
-        .h1-hero {
-    
-            font-size: 3rem;
-            margin: 0;
-            color: #fafafa;
-    
-    
-        }
+
+    .p-light {
+        font-family:lato;
+        font-size: 1.1em;
+        color: #fafafa;
+    }
+
+    .p-dark {
+        font-family:lato;
+        font-size: 1.1em;
+        color: #272727;
+
+    }
+
+    .btn {
+    display:block;
+    }
+
+    .btn-secondary {
+        width: 150px; /* Set a fixed width */
+        height: 50px; /* Set a fixed height */
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #e3201b;
+        font-family: lato;
+        border: solid;
+        border-color: #e3201b;
+        text-align: center;
+        color:#fafafa;
+      }
+      
+      .btn-primary {
+        width: 150px; /* Set a fixed width */
+        height: 50px; /* Set a fixed height */
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #272727;
+        font-family: lato;
+        border: solid;
+        border-color: #272727;
+        text-align: center;
+        color:#fafafa;
+      }
     
         .p-light {
             font-family:lato;
