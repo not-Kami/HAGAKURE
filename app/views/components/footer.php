@@ -3,19 +3,23 @@
 
             <!-- Colonne gauche -->
             <div class="footer-column">
-                <div class="social-icons">
+          
+                <div class="info"> 
+                <h3 class="club-name">Hagakure Karate Club</h3>
+          
+                    
+                    <p>Hall omnisports - Stade Gaston Reiff</p>
+                    <p>Rue Ernest Laurent 215<br>1420 Braine-l'Alleud</p>
+                    
+                    <div class="social-icons">
                     <a href="#"><img src="../public/assets/img/courrier.png" alt="email"></a>
                     <a href="#"><img src="../public/assets/img/facebook.png" alt="Facebook"></a>
                     <a href="#"><img src="../public/assets/img/telephone.png" alt="Téléphone"></a>
 
                 </div>
-                <div class="info"> 
-                    <h3 class="club-name">Hagakure Karate Club</h3>
-                    <p>Hall omnisports - Stade Gaston Reiff</p>
-                    <p>Rue Ernest Laurent 215<br>1420 Braine-l'Alleud</p>
-                    
 
                 </div>
+
             </div>
 
             <!-- Colonne centrale -->

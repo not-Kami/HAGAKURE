@@ -41,11 +41,15 @@ footer {
 }
 
 /* Icônes Réseaux Sociaux */
-.social-icons {
-    display: flex;
-    flex-direction:row;
-    gap: 15px;
-}
+
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: flex-start; /* Align items to the left */
+    }
+    
+
 
 .social-icons img {
     width: 30px;
