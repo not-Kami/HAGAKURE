@@ -1,0 +1,11 @@
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 70px;
+}
+
+.right {
+  display: flex;
+}
