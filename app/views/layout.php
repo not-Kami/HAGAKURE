@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="/public/assets/css/themes.css">
     <link rel="stylesheet" href="/public/assets/css/base.css"/>
-
+    <link rel="stylesheet" href="/public/assets/css/components/hero.css">
     <link rel="stylesheet" href="/public/assets/css/components/navbar.css">
     <link rel="stylesheet" href="/public/assets/css/components/footer.css">
 

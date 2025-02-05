@@ -1,9 +1,32 @@
+.main {
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    min-height:100vh ;
 
+}
+    .main {
+        background-image: url('/public/assets/img/HOME.png'); /* Replace with your image path */
+        background-size: cover; /* Ensures the image covers the entire container */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents repeating */
+}
 
+.left {
+    display:flex;
+    flex-direction:row;
+    width: 50%;
+}
+
+.right {
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+    justify-content: center;
+}
 
 .button-container {
     display: flex; /* or grid */
     flex-direction: row;
-    row-gap: 2em; /* Adds spacing between buttons */
-  }
-  
+    gap: 2em; /* Adds spacing between buttons */
+}
