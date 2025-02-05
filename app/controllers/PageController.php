@@ -9,7 +9,8 @@ class PageController {
         'gallery'       => 'gallery',
         'booking'       => 'booking',
         'contact'       => 'contact',
-        'shop'       => 'shop'
+        'shop'       => 'shop',
+        'information'       => 'information'
     ];
 
     public function render($page) {
