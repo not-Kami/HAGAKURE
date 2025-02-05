@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             menuToggle.style.animation = "wiggle 0.5s ease-in-out 1";
         }, 50);
     }
-    setInterval(playWiggle, 5000);
+    setInterval(playWiggle, 2500);
 
     // Toggle menu visibility
     menuToggle.addEventListener("click", function () {
