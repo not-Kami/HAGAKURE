@@ -3,10 +3,50 @@
     --color-secondary: #e3201b;
     --color-third: #fafafa;
 }
+    .btn-secondary {
+        width: 150px; /* Set a fixed width */
+        height: 50px; /* Set a fixed height */
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #e3201b;
+        font-family: lato;
+        border: solid;
+        border-color: #e3201b;
+        text-align: center;
+        color:#fafafa;
+      }
+      
+      .btn-primary {
+        width: 150px; /* Set a fixed width */
+        height: 50px; /* Set a fixed height */
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #272727;
+        font-family: lato;
+        border: solid;
+        border-color: #272727;
+        text-align: center;
+        color:#fafafa;
+      }
+    
 
-button .btn-primary {
-
-    background-color: #e3201b;
-    font-family: lato;
-    color: #e3201b;
-    }
+      .btn-primary, .btn-secondary {
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+      
+      .btn-primary:hover {
+        background-color: #fafafa; /* Darker shade on hover */
+        transform: scale(1.2); /* Slightly increases size */
+        border-color: #fafafa;
+        color:#272727;
+      }
+      
+      .btn-secondary:hover {
+        background-color: #fafafa; /* Darker shade on hover */
+        transform: scale(1.2); /* Slightly increases size */
+        border-color: #fafafa;
+        color: #e3201b;
+      }
+  
