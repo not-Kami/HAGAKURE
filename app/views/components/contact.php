@@ -12,8 +12,12 @@
         <p>
             <h2>Contact :</h2>
         </p>
-        <p>Joël Vandommele, président du club.</br>
-        0496/77.98.74</p>
+        <p>Joël Vandommele, président du club.</p> <br>
+
+    <a href="tel:+32496779874">0496 77 98 74</a>
+
+</p>
+
     </div>
     <div class="contact-form">
         <form action="" method="post">

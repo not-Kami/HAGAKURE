@@ -9,11 +9,11 @@
                     <a href="#"><img src="../public/assets/img/telephone.png" alt="Téléphone"></a>
 
                 </div>
-                <div> 
+                <div class="info"> 
                     <h3 class="club-name">Hagakure Karate Club</h3>
                     <p>Hall omnisports - Stade Gaston Reiff</p>
                     <p>Rue Ernest Laurent 215<br>1420 Braine-l'Alleud</p>
-                    <img class="club-logo" src="../public/assets/img/logo_rvb_1.svg" alt="Logo Club">
+                    
 
                 </div>
             </div>
@@ -27,6 +27,7 @@
                     <li><a href="#">GALERIE</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
+                <img class="club-logo" src="../public/assets/img/logo_rvb_1.svg" alt="Logo Club">
             </div>
 
             <!-- Colonne droite -->
@@ -38,6 +39,9 @@
                         <li><a href="#">JKA Europe</a></li>
                         <li><a href="#">JK Headquarters</a></li>
                         <li><a href="#">Licence</a></li>
+                        <a href="index.php"> <!-- Or use the correct path to your homepage -->
+                        
+                         </a>
                 </div>
                 </ul>
             </div>

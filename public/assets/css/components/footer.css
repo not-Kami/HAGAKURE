@@ -15,26 +15,29 @@ body {
 footer {
     background: var(--background-color);
     color: var(--text-color);
-    padding: 40px 20px;
     text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+
 }
 
 /* Conteneur du footer */
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: auto;
-    text-align: left;
+    flex-direction: row;
+    max-width: 85%;
+    justify-content: center; /* Centers items horizontally */
+    text-align: left; /* Ensures text inside is centered */
+    margin: 0 auto; /* Centers the whole container */
 }
 
 /* Colonne */
 .footer-column {
-    width: 30%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     margin: 10px;
+    align-items: center;
 }
 
 /* Icônes Réseaux Sociaux */
@@ -73,10 +76,12 @@ footer {
     list-style: none;
     padding: 0;
     text-align: center;
+    
 }
 
 .footer-nav li {
     margin: 10px 0;
+    gap:1em;
 }
 
 .footer-nav a {

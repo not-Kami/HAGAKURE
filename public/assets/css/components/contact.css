@@ -1,11 +1,30 @@
 /* Contact Section */
 #contact {
-    background: #E5E5E5; /* Light gray background */
-    color: #000;
+    background: #fafafa; /* Light gray background */
+    color: #272727;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 60px 10%;
+    width: 85%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
+}
+
+a:hover {
+    color: #e3201b; /* Change to your desired hover color */
+    text-decoration: none; /* Optional: Add underline on hover */
 }
 
 /* Left Side: Title & Text */
