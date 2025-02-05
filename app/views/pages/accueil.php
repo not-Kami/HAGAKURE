@@ -1,10 +1,12 @@
-<section class="home-container">
+<?php include __DIR__ . '/../components/hero.php'; ?>
+
+<section class="home-container" >
     <h1>HAGAKURE KARATE</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi veritatis cum voluptatibus doloremque commodi quam ab voluptates corrupti rerum. Molestiae, officiis ut reiciendis quasi officia nobis veniam eius ab?</p>
     <a href="#contact"><button>Contactez-nous</button></a>
-    <a href="#horaire"><button>Horaires</button></a>
+    <a href="#horaire"><button>Horaire</button></a>
     
-    <section id="#horaires">
+    <section id="#horaire">
     <h2>Horaires</h2>
     <ul>
         <li>Mardi

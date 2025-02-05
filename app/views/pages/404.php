@@ -4,5 +4,5 @@
 </div>
 
 <?php
-include 'contact.php';
+include '/app/views/components/contact.php';
 ?>

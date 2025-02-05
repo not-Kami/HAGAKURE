@@ -2,7 +2,7 @@
 <div id="menu-container">
     <!-- Bouton Logo -->
     <div id="menu-toggle">
-        <img src="/public/assets/img/logo_rvb_1.svg" alt="Hakagure Logo">
+        <img src="/public/assets/img/bt_logo_rvb_1.svg" alt="Hakagure Logo">
     </div>
 
     <!-- Navigation -->

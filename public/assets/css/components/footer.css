@@ -1,6 +1,88 @@
+/* Footer Styles */
 footer {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 10px;
+    background: var(--raisin-black); /* Dark background */
+    color: var(--secondary-color); /* White text */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+/* Sections inside footer */
+footer section {
+    flex: 1;
+    min-width: 200px; /* Ensures proper stacking on smaller screens */
+    margin: 10px;
+}
+
+/* Section Titles */
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Links */
+footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: red;
+}
+
+/* Horizontal Separator */
+footer hr {
+    border: 1px solid var(--secondary-color);
+    width: 50%;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Social Icons */
+footer section:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+footer section:last-child a {
+    display: inline-block;
+}
+
+footer section:last-child img {
+    width: 40px; /* Adjust icon size */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer section:last-child img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer section {
+        margin-bottom: 20px;
+    }
+
+    footer section:last-child {
+        justify-content: center;
+    }
 }

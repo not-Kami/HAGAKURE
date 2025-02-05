@@ -2,7 +2,7 @@
 <h2>Le club - Instructeurs</h2>
 
 <section>
-    <h4>LE CLUB</h4>
+    <h3>LE CLUB</h3>
     <p>La fin des années 60 voit la naissance d'Hagakure KC, un des premiers clubs belges de karaté reconnu par la Japan Karate Association.
  
  Le club est fondé par Jean-Marie Kiebaum et les cours se donnent à la salle Sainte-Thérèse de Waterloo jusqu'au décès inopiné du sensei.
@@ -25,7 +25,7 @@
 
  <img src="/public/assets/img/hagakure_img2.png" alt="Satoshi MIYAZAKI Sensei">
 
- <h4>INSTRUCTEURS</h4>
+ <h3>INSTRUCTEURS</h3>
 
 <p>Christian Debroux, instructeur principal,
 5ème Dan JKA et moniteur ADEPS.
@@ -55,7 +55,7 @@ Raymond Honoré Sensei, 7ème Dan JKA, nous fait également l'honneur de sa pré
 
 <img src="/public/assets/img/hagakure_img3.png" alt="">
 
- <h4>L’Hagakure</h4>
+ <h3>L’Hagakure</h3>
 
  <p>En 1709, Tsunetomo Yamamoto, ou Jocho Yamamoto, ancien samouraï du clan Nabeshima alors devenu moine, se retire en montagne suite à la mort de son seigneur afin d’y vivre une vie recluse. Accompagné par un scribe pendant 7 ans, il lui livrera ses pensées, influencées par le bushido (code d’honneur du samouraï) et le confucianisme.
 
