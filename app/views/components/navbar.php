@@ -36,7 +36,7 @@ $isMobile = preg_match('/Mobile|Android|iPhone|iPad/', $_SERVER['HTTP_USER_AGENT
 
     <!-- Navigation -->
     <nav id="sidebar">
-        <ul>
+        <ul class="ul-menu">
             <li><a href="?page=accueil">Home</a></li>
             <li><a href="?page=shop">Shop</a></li>
             <li class="submenu">

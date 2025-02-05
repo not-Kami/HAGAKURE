@@ -38,7 +38,7 @@
                 <textarea id="message" name="message" rows="4" required></textarea>
             </div>
             
-            <button type="submit" class="btn-primary">Envoyer</button>
+            <button type="submit" class="btn-form">Envoyer</button>
         </form>
     </div>
 
