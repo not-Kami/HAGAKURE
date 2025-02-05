@@ -6,7 +6,7 @@ class PageController {
         'accueil'       => 'accueil',
         'horaire'       => 'horaire',
         'hagakure'   => 'hagakure',
-        'galerie'       => 'galerie',
+        'gallery'       => 'gallery',
         'booking'       => 'booking',
         'contact'       => 'contact'
 
