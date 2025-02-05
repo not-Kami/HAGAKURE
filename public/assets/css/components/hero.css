@@ -2,14 +2,11 @@
   display:flex;
   flex-direction:row;
   width: 100%;
-  min-height:100vh ;
-
-}
-  .main {
-      background-image: url('/public/assets/img/HOME.png'); 
-      background-size: cover; 
-      background-position: center; 
-      background-repeat: no-repeat; 
+  min-height:100vh;
+  background-image: url('/public/assets/img/HOME.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 .left {
