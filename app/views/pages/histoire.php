@@ -31,18 +31,11 @@ Serge Dupan, secrétaire et instructeur (5e Dan JKA).
 Joël Vandommele, président et instructeur (5e Dan JKA).
 Christian Debroux, instructeur principal (5e Dan JKA, moniteur ADEPS).
 Kim Demets, instructeur des cours pour enfants (5e Dan JKA).
-Arnaud Vicaire, entraîneur adjoint de l’équipe nationale (4e Dan JKA).
-
-Le palmarès du club s'étend a  : 17 fois champion de Belgique kata et kumité. 
-
-En junior ; 	1 fois champion du monde kumité en individuel et 1 fois vice champion du monde kumité, 2 fois champion d'Europe kumité en individuel et 2 fois par équipe,
-		1 fois champion d'Europe Kata en individuel. 
-
-En Seniors ; 	5 fois champion d'Europe kumité en individuel et 6 fois par équipe. 4 fois vice champion d'Europe kumité en individuel et 1 fois par équipe, 
-		1 fois champion d'Europe en Kata.
-
+Arnaud Vicaire, 17 fois champion de Belgique kata et kumité. En junior ; 1 fois champion du monde kumité en individuel et 1 fois vice champion du monde kumité, 2 fois champion d'Europe kumité en individuel et 2 fois par équipe,
+1 fois champion d'Europe Kata en individuel. En Seniors ; 5 fois champion d'Europe kumité en individuel et 6 fois par équipe. 4 fois vice champion d'Europe kumité en individuel et 1 fois par équipe, 
+1 fois champion d'Europe en Kata. entraîneur adjoint de l’équipe nationale (4e Dan JKA).
  
- 
+
 Notre club accueille régulièrement, à l'occasion de cours spéciaux, certains des plus hauts représentants de la JKA en Belgique à savoir : Sergio Gneo Sensei, 7ème Dan JKA et Directeur technique national ainsi que Kazuhiro Sawada Sensei, 7ème Dan JKA et instructeur national.
  
 
