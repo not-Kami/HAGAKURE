@@ -4,10 +4,34 @@
     --color-third: #fafafa;
 }
 
-.btn-primary {
+    .btn-primary {
+        width: 150px; /* Set a fixed width */
+        height: 50px; /* Set a fixed height */
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #e3201b;
+        font-family: lato;
+        border: solid;
+        border-color: #e3201b;
+        text-align: center;
+        color:#fafafa;
+      }
+      
+      .btn-secondary {
+        width: 150px; /* Set a fixed width */
+        height: 50px; /* Set a fixed height */
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #272727;
+        font-family: lato;
+        border: solid;
+        border-color: #272727;
+        text-align: center;
+        color:#fafafa;
+      }
+    
+   
 
-background-color: #e3201b;
-font-family: lato;
-
-}
 
