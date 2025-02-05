@@ -1,4 +1,5 @@
-<div class="main">
+ <section class="hero">
+    <div class="main">
         <div class="left">
         </div>
         <div class="right">
