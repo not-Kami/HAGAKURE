@@ -23,7 +23,16 @@
   flex-direction:column;
   width: 50%;
   justify-content: center;
+  
 }
+
+.right-content {
+    display:flex;
+    flex-direction:column;
+    width: 20%;
+    justify-content: center;
+}
+
 
 .button-container {
   display: flex; 
