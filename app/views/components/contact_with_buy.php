@@ -1,4 +1,25 @@
 <section id="contact">
+
+<div>
+
+        <p>
+            <h1>Hagakure Karate Club</h1>
+        </p>
+        <p>Hall omnisports - Stade Gaston Reiff</br>
+        Rue Ernest Laurent 215</br>
+        1420 Braine-l'Alleud</br>
+        </p>
+    
+        <p>
+            <h2>Contact</h2>
+        </p>
+
+        <p>Joël Vandommele, président du club.<br>  <br>
+    <a href="tel:0496779874">0496 77 98 74</a>
+
+</p>
+
+    </div>
     <div class="contact-form">
         <form action="" method="post">
             <div class="form-group">
@@ -50,20 +71,7 @@
         </form>
     </div>
 
-    <p>
-        <h1>Hagakure Karate Club</h1>
-    </p>
-    <p>Hall omnisports - Stade Gaston Reiff</br>
-    Rue Ernest Laurent 215</br>
-    1420 Braine-l'Alleud</br>
-    </p>
-
-    <p>
-        <h2>Contact :</h2>
-    </p>
-    <p>Joël Vandommele, président du club.</br>
-    0496/77.98.74</p>
-
+    
     <script>
         document.querySelectorAll('input[name="request_type"]').forEach(radio => {
             radio.addEventListener('change', function() {
