@@ -1,6 +1,6 @@
     :root {
         --raisin-black: #272727;
-        --color-secondary: #e3201b;
+        --color-secondary: #f80000;
         --color-third: #fafafa;
     }
 
@@ -8,6 +8,20 @@
         background-color: #fafafa;
         margin:0;
         padding:0;
+        
+        overflow-x: hidden;
+
+        a {
+          text-decoration: none;
+          color: #272727; /* Couleur de base */
+          transition: color 0.3s ease-in-out;
+          
+      }
+      
+      a:hover {
+          color: #dd0505; /* Légèrement plus foncé au survol */
+
+      }
 
     }
     h2 {
@@ -44,10 +58,10 @@
             padding: 10px;
             font-size: 16px;
             cursor: pointer;
-            background-color: #e3201b;
+            background-color: #f80000;
             font-family: lato;
             border: solid;
-            border-color: #e3201b;
+            border-color: #f80000;
             text-align: center;
             color:#fafafa;
           }
@@ -104,7 +118,7 @@
             background-color: #fafafa; 
             transform: scale(1.2);
             border-color: #fafafa;
-            color: #e3201b;
+            color: #f80000;
           }
           
 
