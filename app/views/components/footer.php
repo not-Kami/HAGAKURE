@@ -9,7 +9,7 @@
                     <a href="#"><img src="../public/assets/img/telephone.png" alt="Téléphone"></a>
 
                 </div>
-                <div> 
+                <div class="club"> 
                     <h3 class="club-name">Hagakure Karate Club</h3>
                     <p>Hall omnisports - Stade Gaston Reiff</p>
                     <p>Rue Ernest Laurent 215<br>1420 Braine-l'Alleud</p>

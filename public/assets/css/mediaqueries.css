@@ -84,12 +84,31 @@
     display: flex;
     
     align-content: center;
-    flex-wrap: wrap;
-    max-width: 85%;
+    flex-direction: column;
+    width: 85%;
     margin: auto;
     text-align: center;
 }
+.about-us {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    color: #fafafa;
+  }
 
+  .club {
+    width: 85%;
+  }
+
+  .external-links-group{
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    row-gap: 2; 
+}
 }
 
 
