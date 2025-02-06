@@ -5,10 +5,11 @@
         <p>
             <h1>Hagakure Karate Club</h1>
         </p>
-        <p>Hall omnisports - Stade Gaston Reiff</br>
-        Rue Ernest Laurent 215</br>
-        1420 Braine-l'Alleud</br>
-        </p>
+        
+        <p>Joël Vandommele, président du club.<br>  <br>
+    <a href="tel:0496779874">0496 77 98 74</a>
+
+</p>
     
         <p>
             <h2>Contact</h2>
