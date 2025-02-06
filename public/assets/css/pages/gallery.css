@@ -1,9 +1,13 @@
+/* Add spacing for the navbar */
+body {
+    padding-top: 70px; /* Adjust this value based on your navbar height */
+}
 .gallery-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+    margin-top: 100px; /* Ajoutez cette ligne */
 }
-
 .gallery-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -17,7 +21,7 @@
     }
 }
 
-
+/* ou modifiez la classe .gallery si vous utilisez celle-ci comme conteneur principal */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -26,6 +30,7 @@
     max-width: 1200px;
     margin: 0 auto;
     min-height: 100vh;
+    margin-top: 100px; /* Ajoutez cette ligne */
 }
 
 .gallery__item {

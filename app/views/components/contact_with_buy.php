@@ -46,7 +46,7 @@
                 </select>
             </div>
             
-            <button type="submit" class="primary-button">Envoyer</button>
+            <button type="submit" class="btn-primary">Envoyer</button>
         </form>
     </div>
 
