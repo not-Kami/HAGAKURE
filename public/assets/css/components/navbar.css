@@ -180,8 +180,10 @@ nav ul li a:hover {
 }
 
 /* Submenu */
-.submenu .submenu-items {
+.submenu-items {
     display: none;
+    padding-left: 20px;
+    transition: all 0.3s ease;
 }
 
 .submenu.open .submenu-items {
