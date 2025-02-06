@@ -18,8 +18,8 @@
 
     <?php
     if (isset($page)) {
-        $cssFile = "public/assets/css/pages/$page.css";
-        if (file_exists(__DIR__ . "/../../public/$cssFile")) {
+        $cssFile = "/public/assets/css/pages/$page.css";
+        if (file_exists(__DIR__ . "/../../$cssFile")) {
             echo '<link rel="stylesheet" href="' . $cssFile . '">';
         }
     }

@@ -218,9 +218,6 @@
   min-height: 25vh;
 
 }
-
-
-
 @media (max-width: 768px)  { 
   .file-box {  
     justify-content: center;
