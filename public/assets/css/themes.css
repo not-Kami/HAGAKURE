@@ -134,6 +134,10 @@
   width: 100%;
   min-height: 50vh;
   background-color: #fafafa;
+  background-image: url('/public/assets/img/gallery/Progetto\ senza\ titolo\ \(57\).png'); 
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   gap: 2em;
   justify-content: space-around; /* Centra le card orizzontalmente */
   align-items: center; /* Centra le card verticalmente */

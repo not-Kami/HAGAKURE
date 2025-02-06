@@ -1,12 +1,9 @@
-@font-face {
-    font-family: 'Capture It';
-    src: url('../font/CaptureIt.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anta&family=Saira+Stencil+One&display=swap');
 
 :root{
-    --font-primary: 'Capture It';
+    --font-primary: "Saira Stencil One";
     --font-secondary: 'lato';
+    --h1-hero: "Saira Stencil One";
 }
