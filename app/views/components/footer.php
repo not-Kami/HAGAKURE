@@ -16,7 +16,7 @@
                 <div class="social-icons">
                     <a href="#"><img src="?" alt="email"></a>
                     <a href="#"><img src="?" alt="Facebook"></a>
-                    <a href="#"><img src="?" alt="Téléphone"></a>
+                    <a href="#"><img src="public\assets\img\Layout_icon_courrier.png" alt="Téléphone"></a>
 
                 </div>
                 <div> 

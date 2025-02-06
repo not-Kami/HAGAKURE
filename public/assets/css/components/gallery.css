@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes par défaut */
+    grid-template-rows: repeat(2, 1fr); /* 2 lignes par défaut */
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 100%;
+    max-width: 1200px; /* Ajustez selon vos besoins */
+    margin: 0 auto; /* Centrer la grille */
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+
+section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: auto;
+}
+
+.square img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.square p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.square:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .parent {
+        grid-template-columns: 1fr; /* 1 colonne pour les écrans plus petits */
+        grid-template-rows: repeat(4, 1fr); /* 4 lignes pour les écrans plus petits */
+    }
+
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 2 / 1 / 3 / 2; }
+    .div3 { grid-area: 3 / 1 / 4 / 2; }
+    .div4 { grid-area: 4 / 1 / 5 / 2; }
+
+    .square {
+        width: 120px; /* Taille réduite pour les écrans plus petits */
+        height: 120px;
+    }
+
+    .square img {
+        width: 60px; /* Taille réduite pour les écrans plus petits */
+        height: 60px;
+    }
+
+    h2 {
+        font-size: 18px; /* Taille de police réduite pour les écrans plus petits */
+    }
+}
+
+@media (max-width: 480px) {
+    .square {
+        width: 100px; /* Taille encore plus réduite pour les très petits écrans */
+        height: 100px;
+    }
+
+    .square img {
+        width: 50px; /* Taille encore plus réduite pour les très petits écrans */
+        height: 50px;
+    }
+
+    h2 {
+        font-size: 16px; /* Taille de police encore plus réduite */
+    }
+}

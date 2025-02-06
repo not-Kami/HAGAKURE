@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="/public/assets/css/components/navbar.css">
     <link rel="stylesheet" href="/public/assets/css/components/footer.css">
     <link rel="stylesheet" href="/public/assets/css/components/contact.css">
+    <link rel="stylesheet" href="/public/assets/css/components/gallery.css">
 
 
 
 
     <?php
     if (isset($page)) {
-        $cssFile = "/assets/css/pages/$page.css";
+        $cssFile = "/public/assets/css/pages/$page.css";
         if (file_exists(__DIR__ . "/../../public$cssFile")) {
             echo '<link rel="stylesheet" href="' . $cssFile . '">';
         }
