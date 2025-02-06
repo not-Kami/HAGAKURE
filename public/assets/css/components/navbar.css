@@ -4,12 +4,17 @@
     left: -400px; /* Caché par défaut */
     width: 400px;
     height: 100vh;
-    background: var(--raisin-black);
     transition: transform 0.4s ease-in-out;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url('/public/assets/img/Progetto\ senza\ titolo\ \(56\).png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+
 
 }
 
@@ -37,6 +42,7 @@
 /* Ouvrir le menu avec un slide propre */
 .menu-open {
     transform: translateX(400px);
+   
 }
 
 .ul-menu li {
@@ -115,19 +121,27 @@ nav ul li a:hover {
     position: fixed;
     top: 0;
     left: -100%; /* Start completely hidden */
-    width: 80%; /* Cover 80% of the screen */
+    width: 100%;
     height: 100vh;
-    background: var(--raisin-black);
     box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.4s ease-in-out;
-    padding-top: 60px; /* Space for the close button */
-    z-index: 1000; /* Ensure it appears above everything */
-    left: -100%; /* Position initiale */
+    z-index: 1000;
+    color: #fafafa;
+  
+    /* Center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Ensure text inside is centered */
 }
+
 
 /* When menu is active */
 .mobile-menu-open {
-    transform: translateX(100vw); /* Pour déplacer à partir de la position -100% */
+    transform: translateX(100vw);
+    align-items: center; /* Pour déplacer à partir de la position -100% */
+    
 }
 
 /* Burger Menu Button */

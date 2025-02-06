@@ -1,0 +1,97 @@
+@media (max-width: 768px)  { 
+    .file-box {  
+      justify-content: center;
+      align-items:center;
+    }  
+
+    .left {  
+      display:none;
+    }  
+
+    .mobile-menu-open {
+        width: 100%;
+    }
+
+    .mobile-menu-open {
+        background-image: url('/public/assets/img/Progetto\ senza\ titolo\ \(56\).png'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+
+    .main {
+        display:flex;
+        flex-direction:row;
+        width: 100%;
+        min-height:100vh ;
+        justify-content: center;
+        text-align: center;
+        justify-content: flex-end
+      }
+
+      .button-container {
+        justify-content: center;
+      }
+
+      .left {
+        display:none;
+      }
+
+      .right {
+        width: 85%;
+      }
+
+      .horaire{
+        flex-direction: column;
+      }
+
+      .file-box {
+        text-align: center;
+        width: 85%;
+      }
+
+      .kimono-2 {
+        margin:2em;
+      }
+
+      
+    .about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    
+    
+   }
+
+   .about-us {
+    align-items: normal;
+   }
+
+   .contact-form form {
+    align-items: center
+
+
+   }
+
+   .contact-form {
+    align-items: center;
+    margin-top: 2em;
+   }
+
+   .footer-container {
+    display: flex;
+    
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+}
+
+
+  
+   

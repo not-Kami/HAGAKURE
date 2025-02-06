@@ -1,6 +1,6 @@
     :root {
         --raisin-black: #272727;
-        --color-secondary: #e3201b;
+        --color-secondary: #f80000;
         --color-third: #fafafa;
     }
 
@@ -8,6 +8,20 @@
         background-color: #fafafa;
         margin:0;
         padding:0;
+        
+        overflow-x: hidden;
+
+        a {
+          text-decoration: none;
+          color: #272727; /* Couleur de base */
+          transition: color 0.3s ease-in-out;
+          
+      }
+      
+      a:hover {
+          color: #dd0505; /* Légèrement plus foncé au survol */
+
+      }
 
     }
     h2 {
@@ -44,10 +58,10 @@
             padding: 10px;
             font-size: 16px;
             cursor: pointer;
-            background-color: #e3201b;
+            background-color: #f80000;
             font-family: lato;
             border: solid;
-            border-color: #e3201b;
+            border-color: #f80000;
             text-align: center;
             color:#fafafa;
           }
@@ -104,7 +118,7 @@
             background-color: #fafafa; 
             transform: scale(1.2);
             border-color: #fafafa;
-            color: #e3201b;
+            color: #f80000;
           }
           
 
@@ -218,9 +232,101 @@
   min-height: 25vh;
 
 }
+
+/* cocde for the histoire section */
+
+.histoire-div-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 50%;
+  background-color: rgb(255, 0, 157);
+}
+
+.left-text {
+  display: flex;
+  flex-direction:column;
+  width:40%;
+  
+
+}
+
+.right-photo {
+  display: flex;
+  flex-direction:column;
+  width:40%;
+
+}
+
+
+/*ABOUT US*/
+
+.about {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-image: url('/public/assets/img/dojo.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 2em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  color: #fafafa;
+  
+
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  gap: 1em;
+  text-align: center;
+  
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  justify-content: left; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  margin: 0%;
+  padding: 0%;
+  
+
+}
+
+.button-container-2 {
+  display: flex;
+  width: 100%;
+  justify-content: center; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  margin: 0%;
+  padding: 0%;
+  gap:2em;
+  
+
+}
 @media (max-width: 768px)  { 
   .file-box {  
     justify-content: center;
     align-items:center;
   }  
 }
+

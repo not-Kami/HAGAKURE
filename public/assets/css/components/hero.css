@@ -24,6 +24,8 @@
   width: 50%;
   justify-content: center;
   
+
+  
 }
 
 .right-content {
@@ -40,4 +42,6 @@
   gap: 2em;
 }
 
-
+.p-light {
+  color: #fafafa;
+}
