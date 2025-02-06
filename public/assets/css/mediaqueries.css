@@ -43,6 +43,7 @@
 
       .horaire{
         flex-direction: column;
+        background-image:none;
       }
 
       .file-box {
