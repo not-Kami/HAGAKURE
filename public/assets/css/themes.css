@@ -10,6 +10,10 @@
         padding:0;
 
     }
+    h2 {
+      margin-top:2em;
+      padding:0;
+    }
         .h1-hero {
             font-family: var(--font-primary);
             font-size: 3rem;
@@ -103,13 +107,62 @@
             color: #e3201b;
           }
           
-        .cards {
-            display: flex;
-            flex-direction: column;
-            width: 15%;
-            min-height: 15vh;
-            background-color: #272727;
-        }
+
+.title {
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}          
+  
+.horaire {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 50vh;
+  background-color: #fafafa;
+  gap: 2em;
+  justify-content: space-around; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  
+  
+}
+
+.licence {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50vh;
+  background-color: #fafafa;
+  gap: 2em;
+  justify-content: space-around; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  
+}
+
+
+.cards {
+  width: 300px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #272727;
+  color: #fafafa;
+  padding: 1em;
+}
+
+.file-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: left;
+  text-transform: uppercase;
+  justify-content: space-around; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  margin-top: 2em;
+
+}
+
      /* Sticky Logo */
 .logo-sticky {
     position: fixed; /* Keeps it fixed while scrolling */
@@ -122,4 +175,55 @@
 .logo-sticky img {
     height: 100px;
     width: auto; /* Maintain aspect ratio */
+}
+
+.button-container-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  
+
+}
+
+.kimono-1 {
+  width: 300px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #272727;
+  color: #fafafa;
+  padding: 1em;
+  background-image: url('/public/assets/img/shop_kimono01.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 25vh;
+
+}
+
+.kimono-2 {
+  width: 300px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #272727;
+  color: #fafafa;
+  padding: 1em;
+  background-image: url('/public/assets/img/shop_kimono02.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 25vh;
+
+}
+
+
+
+@media (max-width: 768px)  { 
+  .file-box {  
+    justify-content: center;
+    align-items:center;
+  }  
 }
