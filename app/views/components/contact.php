@@ -10,7 +10,7 @@
         </p>
     
         <p>
-            <h2>Contact :</h2>
+            <h2>Contact</h2>
         </p>
 
         <p>Joël Vandommele, président du club.<br>  <br>
