@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="/public/assets/css/components/footer.css">
     <link rel="stylesheet" href="/public/assets/css/components/contact.css">
     <link rel="stylesheet" href="/public/assets/css/mediaqueries.css">
+    <link rel="stylesheet" href="/public/assets/css/components/gallery.css">
 
 
 
 
     <?php
     if (isset($page)) {
-        $cssFile = "public/assets/css/pages/$page.css";
-        if (file_exists(__DIR__ . "/../../public/$cssFile")) {
+        $cssFile = "/public/assets/css/pages/$page.css";
+        if (file_exists(__DIR__ . "/../../$cssFile")) {
             echo '<link rel="stylesheet" href="' . $cssFile . '">';
         }
     }
@@ -36,7 +37,11 @@
     <main>
         <?php include $viewFile; ?>
     </main>
-    <?php include __DIR__ . '/components/contact.php'; ?>
+    <?php if ($page === 'shop'): ?>
+        <?php include __DIR__ . '/components/contact_with_buy.php'; ?>
+    <?php else: ?>
+        <?php include __DIR__ . '/components/contact.php'; ?>
+    <?php endif; ?>
     <?php include __DIR__ . '/components/footer.php'; ?>
 
     <script src="/public/assets/js/menu.js"></script>
