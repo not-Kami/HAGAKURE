@@ -1,4 +1,4 @@
-<section class="histoire">
+<section class="histoire-div-1">
 
 <h1>Le club - Instructeurs</h1>
 
@@ -10,6 +10,8 @@
  
     Les premiers cours se tenaient à Waterloo, avant d’être déplacés à la Maison des Jeunes de Braine-l'Alleud sous la direction d’Eric Feron. En 1979, 
     Christian Debroux reprend la direction du club après la disparition tragique de ses prédécesseurs. </p>
+
+    </div>
 
     <div class="right-photo">
 
@@ -36,15 +38,17 @@
  Hagakure KC entretient des liens étroits avec Kazuhiro Sawada Sensei et Raymond Honoré Sensei, qui dispensent régulièrement des cours spéciaux.
  Le club garde également un profond respect pour Satoshi Miyazaki Sensei, figure marquante du karaté belge, dont l’influence reste vive.</p>
 
+ </div>
+
+
  <div class="right-photo">
 
  <img src="/public/assets/img/hagakure_img2.png" alt="Satoshi MIYAZAKI Sensei">
 
 </div>
 
-</div>
 
-<section class="histoire">
+<section class="histoire-div-2">
 
 <div class="left-text">
 
@@ -78,7 +82,7 @@ Raymond Honoré Sensei, 7ème Dan JKA, nous fait également l'honneur de sa pré
 </section>
 
 
-<section class="histoire">
+<section class="histoire-div-3">
 
 <div class="left-text">
 
@@ -88,13 +92,19 @@ Raymond Honoré Sensei, 7ème Dan JKA, nous fait également l'honneur de sa pré
  Le terme Hagakure, signifiant « à l’ombre des feuilles », provient des écrits de Tsunetomo Yamamoto, 
  ancien samouraï devenu moine en 1709. Pendant 7 ans, il livre ses pensées, influencées par le bushido (code d’honneur du samouraï) 
  et le confucianisme, à un scribe. Ses enseignements, rassemblés en 11 tomes, servaient initialement de guide moral pour les samouraïs du clan Nabeshima. 
+
+
  Restée confidentielle, l’œuvre ne sera révélée au grand public qu’au XXe siècle.</p>
+
+ </div>
 
  <div class="right-photo">
 
 <img src="/public/assets/img/hagakure_img4.png" alt="XXe siècle">
 
-</right-photo>
+</div>
+
+<div class="left-text">
 
 <p>Le nom Hagakure fait référence à la vie discrète et modeste de Yamamoto, mais aussi à la profondeur des écrits, dont le sens se dévoile entre les lignes.
 
@@ -116,6 +126,12 @@ J. Yamamoto, Hagakure, le livre secret des samouraïs, Ed. Guy Trédaniel
 
 T. Yamamoto, Hagakure: Ecrits sur la Voie des samouraïs, Budo Edition </p>
 
+</div>
+
+<div class="right-photo">
+
 <img src="/public/assets/img/hagakure_img5.png" alt="Hagakure brodé sur une ceinture noire">
-</p>
+
+</div>
+
 </section>
