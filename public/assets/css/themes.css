@@ -1,260 +1,267 @@
-    :root {
-        --raisin-black: #272727;
-        --color-secondary: #f80000;
-        --color-third: #fafafa;
+:root {
+  --raisin-black: #272727;
+  --color-secondary: #f80000;
+  --color-third: #fafafa;
+}
+
+body, html {
+  background-color: #fafafa;
+  margin:0;
+  padding:0;
+  
+  overflow-x: hidden;
+
+  a {
+    text-decoration: none;
+    color: #272727; /* Couleur de base */
+    transition: color 0.3s ease-in-out;
+    
+}
+.p-dark{
+  color: #272727;
+}
+
+.p-light{
+  color: #fafafa;
+}
+
+a:hover {
+    color: #dd0505; /* Légèrement plus foncé au survol */
+
+}
+
+}
+h2 {
+margin-top:2em;
+padding:0;
+}
+  .h1-hero {
+      font-family: var(--font-primary);
+      font-size: 3rem;
+      margin: 0;
+      color: #fafafa;    
+  }
+
+  .p-light {
+      font-family:lato;
+      font-size: 1.1em;
+      color: #fafafa;
+  }
+
+  .p-dark {
+      font-family:lato;
+      font-size: 1.1em;
+      color: #272727;
+
+  }
+
+  .btn {
+  display:block;
+  }
+
+  .btn-secondary {
+      width: 150px; 
+      height: 50px;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #f80000;
+      font-family: lato;
+      border: solid;
+      border-color: #f80000;
+      text-align: center;
+      color:#fafafa;
     }
 
-    body, html {
-        background-color: #fafafa;
-        margin:0;
-        padding:0;
-        
-        overflow-x: hidden;
-
-        a {
-          text-decoration: none;
-          color: #272727; /* Couleur de base */
-          transition: color 0.3s ease-in-out;
-          
-      }
-      
-      a:hover {
-          color: #dd0505; /* Légèrement plus foncé au survol */
-
-      }
-
+    .btn-primary {
+      width: 150px; 
+      height: 50px; 
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #272727;
+      font-family: lato;
+      border: solid;
+      border-color: #272727;
+      text-align: center;
+      color:#fafafa;
     }
-    h2 {
-      margin-top:2em;
-      padding:0;
+
+    .btn-form {
+      width: 150px; 
+      height: 50px; 
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #272727;
+      font-family: lato;
+      border: solid;
+      border-color: #272727;
+      text-align: center;
+      color:#fafafa;
     }
-        .h1-hero {
-            font-family: var(--font-primary);
-            font-size: 3rem;
-            margin: 0;
-            color: #fafafa;    
-        }
-    
-        .p-light {
-            font-family:lato;
-            font-size: 1.1em;
-            color: #fafafa;
-        }
-    
-        .p-dark {
-            font-family:lato;
-            font-size: 1.1em;
-            color: #272727;
-    
-        }
-    
-        .btn {
-        display:block;
-        }
-    
-        .btn-secondary {
-            width: 150px; 
-            height: 50px;
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #f80000;
-            font-family: lato;
-            border: solid;
-            border-color: #f80000;
-            text-align: center;
-            color:#fafafa;
-          }
-    
-          .btn-primary {
-            width: 150px; 
-            height: 50px; 
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #272727;
-            font-family: lato;
-            border: solid;
-            border-color: #272727;
-            text-align: center;
-            color:#fafafa;
-          }
 
-          .btn-form {
-            width: 150px; 
-            height: 50px; 
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #272727;
-            font-family: lato;
-            border: solid;
-            border-color: #272727;
-            text-align: center;
-            color:#fafafa;
-          }
-    
-    
-    
-          .btn-primary, .btn-secondary, .btn-form {
-            transition: background-color 0.3s ease, transform 0.3s ease;
-          }
-    
-          .btn-primary:hover {
-            background-color: #fafafa; 
-            transform: scale(1.2);
-            border-color: #fafafa;
-            color:#272727;
-          }
 
-          .btn-form:hover {
-            background-color: #fafafa; 
-            transform: scale(1.2);
-            border-color: #272727;
-            color:#272727;
-          }
+
+    .btn-primary, .btn-secondary, .btn-form {
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #fafafa; 
+      transform: scale(1.2);
+      border-color: #fafafa;
+      color:#272727;
+    }
+
+    .btn-form:hover {
+      background-color: #fafafa; 
+      transform: scale(1.2);
+      border-color: #272727;
+      color:#272727;
+    }
+
+    .btn-secondary:hover {
+      background-color: #fafafa; 
+      transform: scale(1.2);
+      border-color: #fafafa;
+      color: #f80000;
+    }
     
-          .btn-secondary:hover {
-            background-color: #fafafa; 
-            transform: scale(1.2);
-            border-color: #fafafa;
-            color: #f80000;
-          }
-          
 
 .title {
-  justify-content: center;
-  text-align: center;
-  text-transform: uppercase;
+justify-content: center;
+text-align: center;
+text-transform: uppercase;
 }          
-  
+
 .horaire {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  min-height: 50vh;
-  background-color: #fafafa;
-  gap: 2em;
-  justify-content: space-around; /* Centra le card orizzontalmente */
-  align-items: center; /* Centra le card verticalmente */
-  
-  
+display: flex;
+flex-direction: row;
+width: 100%;
+min-height: 50vh;
+background-color: #fafafa;
+gap: 2em;
+justify-content: space-around; /* Centra le card orizzontalmente */
+align-items: center; /* Centra le card verticalmente */
+
+
 }
 
 .licence {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 50vh;
-  background-color: #fafafa;
-  gap: 2em;
-  justify-content: space-around; /* Centra le card orizzontalmente */
-  align-items: center; /* Centra le card verticalmente */
-  
+display: flex;
+flex-direction: column;
+width: 100%;
+min-height: 50vh;
+background-color: #fafafa;
+gap: 2em;
+justify-content: space-around; /* Centra le card orizzontalmente */
+align-items: center; /* Centra le card verticalmente */
+
 }
 
 
 .cards {
-  width: 300px;
-  border: 1px solid #ddd;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #272727;
-  color: #fafafa;
-  padding: 1em;
+width: 300px;
+border: 1px solid #ddd;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+background-color: #272727;
+color: #fafafa;
+padding: 1em;
 }
 
 .file-box {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  text-align: left;
-  text-transform: uppercase;
-  justify-content: space-around; /* Centra le card orizzontalmente */
-  align-items: center; /* Centra le card verticalmente */
-  margin-top: 2em;
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+text-align: left;
+text-transform: uppercase;
+justify-content: space-around; /* Centra le card orizzontalmente */
+align-items: center; /* Centra le card verticalmente */
+margin-top: 2em;
 
 }
 
-     /* Sticky Logo */
+/* Sticky Logo */
 .logo-sticky {
-    position: fixed; /* Keeps it fixed while scrolling */
-    right: 20px; /* Align to the right */
-    top: 20px; /* Position at the top */
-    z-index: 1000; /* Ensures it stays above other content */
+position: fixed; /* Keeps it fixed while scrolling */
+right: 20px; /* Align to the right */
+top: 20px; /* Position at the top */
+z-index: 1000; /* Ensures it stays above other content */
 }
 
 /* Logo Image */
 .logo-sticky img {
-    height: 100px;
-    width: auto; /* Maintain aspect ratio */
+height: 100px;
+width: auto; /* Maintain aspect ratio */
 }
 
 .button-container-vertical {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center; /* Centra le card orizzontalmente */
-  align-items: center; /* Centra le card verticalmente */
-  
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center; /* Centra le card orizzontalmente */
+align-items: center; /* Centra le card verticalmente */
+
 
 }
 
 .kimono-1 {
-  width: 300px;
-  border: 1px solid #ddd;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #272727;
-  color: #fafafa;
-  padding: 1em;
-  background-image: url('/public/assets/img/shop_kimono01.png'); 
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  min-height: 25vh;
+width: 300px;
+border: 1px solid #ddd;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+background-color: #272727;
+color: #fafafa;
+padding: 1em;
+background-image: url('/public/assets/img/shop_kimono01.png'); 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+min-height: 25vh;
 
 }
 
 .kimono-2 {
-  width: 300px;
-  border: 1px solid #ddd;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #272727;
-  color: #fafafa;
-  padding: 1em;
-  background-image: url('/public/assets/img/shop_kimono02.png'); 
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  min-height: 25vh;
+width: 300px;
+border: 1px solid #ddd;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+background-color: #272727;
+color: #fafafa;
+padding: 1em;
+background-image: url('/public/assets/img/shop_kimono02.png'); 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+min-height: 25vh;
 
 }
 
 /* cocde for the histoire section */
 
 .histoire-div-1 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  min-height: 50%;
-  background-color: rgb(255, 0, 157);
+display: flex;
+flex-direction: row;
+width: 100%;
+min-height: 50%;
+background-color: rgb(255, 0, 157);
 }
 
 .left-text {
-  display: flex;
-  flex-direction:column;
-  width:40%;
-  
+display: flex;
+flex-direction:column;
+width:40%;
+
 
 }
 
 .right-photo {
-  display: flex;
-  flex-direction:column;
-  width:40%;
+display: flex;
+flex-direction:column;
+width:40%;
 
 }
 
@@ -287,48 +294,39 @@
   align-items: center;
   min-height: 50vh;
   color: #fafafa;
-  
-
 }
 
 .about-header {
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-  justify-content: center;
-  align-items: center;
-  min-height: 50vh;
-  gap: 1em;
-  text-align: center;
-  
+display: flex;
+flex-direction: column;
+width: 85%;
+justify-content: center;
+align-items: center;
+min-height: 50vh;
+gap: 1em;
+text-align: center;
+
 }
 
 .button-container {
-  display: flex;
-  width: 100%;
-  justify-content: left; /* Centra le card orizzontalmente */
-  align-items: center; /* Centra le card verticalmente */
-  margin: 0%;
-  padding: 0%;
-  
+display: flex;
+width: 100%;
+justify-content: left; /* Centra le card orizzontalmente */
+align-items: center; /* Centra le card verticalmente */
+margin: 0%;
+padding: 0%;
+
 
 }
 
 .button-container-2 {
-  display: flex;
-  width: 100%;
-  justify-content: center; /* Centra le card orizzontalmente */
-  align-items: center; /* Centra le card verticalmente */
-  margin: 0%;
-  padding: 0%;
-  gap:2em;
-  
+display: flex;
+width: 100%;
+justify-content: center; /* Centra le card orizzontalmente */
+align-items: center; /* Centra le card verticalmente */
+margin: 0%;
+padding: 0%;
+gap:2em;
+
 
 }
-@media (max-width: 768px)  { 
-  .file-box {  
-    justify-content: center;
-    align-items:center;
-  }  
-}
-

@@ -8,7 +8,7 @@
             
             <img src="Assets projet/Assets/Block2.png" alt="">
             <h1 class="h1-hero">Welcome to Hagakure</h1>
-            <p class="text">
+            <p class="text p-light">
             Découvrez l'ancienne sagesse de la voie des samouraïs. <br>
             Explorez notre collection d'enseignements et de philosophies qui ont guidé les guerriers pendant des siècles.
             </p>
