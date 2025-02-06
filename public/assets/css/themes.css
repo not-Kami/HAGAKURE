@@ -325,3 +325,10 @@
   
 
 }
+@media (max-width: 768px)  { 
+  .file-box {  
+    justify-content: center;
+    align-items:center;
+  }  
+}
+

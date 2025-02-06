@@ -52,3 +52,4 @@ $isMobile = preg_match('/Mobile|Android|iPhone|iPad/', $_SERVER['HTTP_USER_AGENT
     </nav>
 </div>
 <?php endif; ?>
+

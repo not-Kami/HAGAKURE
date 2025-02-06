@@ -4,6 +4,7 @@
             <!-- Colonne gauche -->
             <div class="footer-column">
                 <div class="social-icons">
+
                     <a href="#"><img src="../public/assets/img/courrier.png" alt="email"></a>
                     <a href="#"><img src="../public/assets/img/facebook.png" alt="Facebook"></a>
                     <a href="#"><img src="../public/assets/img/telephone.png" alt="Téléphone"></a>
