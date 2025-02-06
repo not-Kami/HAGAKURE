@@ -5,11 +5,11 @@ class PageController {
     private $pages = [
         'accueil'       => 'accueil',
         'horaire'       => 'horaire',
-        'hagakure'   => 'hagakure',
-        'gallery'       => 'gallery',
-        'booking'       => 'booking',
-        'contact'       => 'contact',
-        'shop'       => 'shop'
+        'histoire'      => 'histoire',
+        'karate'        => 'karate',
+        'gallery'       => 'gallery', 
+        'contact'       => 'contact', // intégration map comme composante //
+        'shop'          => 'shop'
     ];
 
     public function render($page) {

@@ -16,8 +16,8 @@ $isMobile = preg_match('/Mobile|Android|iPhone|iPad/', $_SERVER['HTTP_USER_AGENT
             <li class="submenu">
                 <a href="#" id="mobile-hagakure-toggle">HAGAKURE ▼</a>
                 <ul class="submenu-items">
-                    <li><a href="?page=histoire-club">Notre Histoire</a></li>
-                    <li><a href="?page=histoire-karate">Histoire du Karaté</a></li>
+                    <li><a href="?page=karate">Notre Histoire</a></li>
+                    <li><a href="?page=hagakure">Histoire du Karaté</a></li>
                 </ul>
             </li>
             <li><a href="?page=galerie">Galerie</a></li>
@@ -36,7 +36,7 @@ $isMobile = preg_match('/Mobile|Android|iPhone|iPad/', $_SERVER['HTTP_USER_AGENT
 
     <!-- Navigation -->
     <nav id="sidebar">
-        <ul>
+        <ul class="ul-menu">
             <li><a href="?page=accueil">Home</a></li>
             <li><a href="?page=shop">Shop</a></li>
             <li class="submenu">
@@ -47,7 +47,7 @@ $isMobile = preg_match('/Mobile|Android|iPhone|iPad/', $_SERVER['HTTP_USER_AGENT
                 </ul>
             </li>
             <li><a href="?page=gallery">Galerie</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="?page=contact">Contact</a></li>
         </ul>
     </nav>
 </div>

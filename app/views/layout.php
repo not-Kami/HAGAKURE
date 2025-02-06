@@ -6,7 +6,7 @@
     <title>HAGAKURE - Club de Karaté - Braine l'Alleud</title>
 
     <link rel="stylesheet" href="/public/assets/css/themes.css">
-
+    <link rel="stylesheet" href="/public/assets/css/font_import.css">
     <link rel="stylesheet" href="/public/assets/css/components/hero.css">
     <link rel="stylesheet" href="/public/assets/css/components/navbar.css">
     <link rel="stylesheet" href="/public/assets/css/components/footer.css">
@@ -18,16 +18,20 @@
 
     <?php
     if (isset($page)) {
-        $cssFile = "/public/assets/css/pages/$page.css";
-        if (file_exists(__DIR__ . "/../../public$cssFile")) {
+        $cssFile = "public/assets/css/pages/$page.css";
+        if (file_exists(__DIR__ . "/../../public/$cssFile")) {
             echo '<link rel="stylesheet" href="' . $cssFile . '">';
         }
     }
     ?>
+
 </head>
 <body>
 
     <?php include __DIR__ . '/components/navbar.php'; ?>
+        <div class="logo-sticky">
+            <img src="/public/assets/img/logo_rvb_1.svg" alt="Hagakure Logo">
+        </div>
 
     <main>
         <?php include $viewFile; ?>

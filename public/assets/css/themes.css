@@ -1,15 +1,21 @@
+    :root {
+        --raisin-black: #272727;
+        --color-secondary: #e3201b;
+        --color-third: #fafafa;
+    }
 
-:root {
-    --raisin-black: #272727;
-    --color-secondary: #e3201b;
-    --color-third: #fafafa;
-}
+    body, html {
+        background-color: #fafafa;
+        margin:0;
+        padding:0;
 
-body{
-    background-color: #fafafa;
+    }
+    h2 {
+      margin-top:2em;
+      padding:0;
     }
         .h1-hero {
-    
+            font-family: var(--font-primary);
             font-size: 3rem;
             margin: 0;
             color: #fafafa;    
@@ -59,9 +65,24 @@ body{
             text-align: center;
             color:#fafafa;
           }
+
+          .btn-form {
+            width: 150px; 
+            height: 50px; 
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #272727;
+            font-family: lato;
+            border: solid;
+            border-color: #272727;
+            text-align: center;
+            color:#fafafa;
+          }
     
     
-          .btn-primary, .btn-secondary {
+    
+          .btn-primary, .btn-secondary, .btn-form {
             transition: background-color 0.3s ease, transform 0.3s ease;
           }
     
@@ -71,6 +92,13 @@ body{
             border-color: #fafafa;
             color:#272727;
           }
+
+          .btn-form:hover {
+            background-color: #fafafa; 
+            transform: scale(1.2);
+            border-color: #272727;
+            color:#272727;
+          }
     
           .btn-secondary:hover {
             background-color: #fafafa; 
@@ -78,3 +106,124 @@ body{
             border-color: #fafafa;
             color: #e3201b;
           }
+          
+
+.title {
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}          
+  
+.horaire {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 50vh;
+  background-color: #fafafa;
+  gap: 2em;
+  justify-content: space-around; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  
+  
+}
+
+.licence {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50vh;
+  background-color: #fafafa;
+  gap: 2em;
+  justify-content: space-around; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  
+}
+
+
+.cards {
+  width: 300px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #272727;
+  color: #fafafa;
+  padding: 1em;
+}
+
+.file-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: left;
+  text-transform: uppercase;
+  justify-content: space-around; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  margin-top: 2em;
+
+}
+
+     /* Sticky Logo */
+.logo-sticky {
+    position: fixed; /* Keeps it fixed while scrolling */
+    right: 20px; /* Align to the right */
+    top: 20px; /* Position at the top */
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+/* Logo Image */
+.logo-sticky img {
+    height: 100px;
+    width: auto; /* Maintain aspect ratio */
+}
+
+.button-container-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center; /* Centra le card orizzontalmente */
+  align-items: center; /* Centra le card verticalmente */
+  
+
+}
+
+.kimono-1 {
+  width: 300px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #272727;
+  color: #fafafa;
+  padding: 1em;
+  background-image: url('/public/assets/img/shop_kimono01.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 25vh;
+
+}
+
+.kimono-2 {
+  width: 300px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #272727;
+  color: #fafafa;
+  padding: 1em;
+  background-image: url('/public/assets/img/shop_kimono02.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 25vh;
+
+}
+
+
+
+@media (max-width: 768px)  { 
+  .file-box {  
+    justify-content: center;
+    align-items:center;
+  }  
+}
