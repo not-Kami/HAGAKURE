@@ -36,7 +36,11 @@
     <main>
         <?php include $viewFile; ?>
     </main>
-    <?php include __DIR__ . '/components/contact.php'; ?>
+    <?php if ($page === 'shop'): ?>
+        <?php include __DIR__ . '/components/contact_with_buy.php'; ?>
+    <?php else: ?>
+        <?php include __DIR__ . '/components/contact.php'; ?>
+    <?php endif; ?>
     <?php include __DIR__ . '/components/footer.php'; ?>
 
     <script src="/public/assets/js/menu.js"></script>
