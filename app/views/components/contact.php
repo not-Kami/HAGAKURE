@@ -2,7 +2,7 @@
     <div>
 
         <p>
-            <h1>Hagakure Karate Club</h1>
+            <h1 class="marginTop">Hagakure Karate Club</h1>
         </p>
         <p>Hall omnisports - Stade Gaston Reiff</br>
         Rue Ernest Laurent 215</br>

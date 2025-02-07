@@ -2,7 +2,7 @@
 
 <h2>Horaires des Cours et Inscription</h2>
 
-<h3>Profitez de 3 Séances d'Essai Gratuites au Dojo!</h3>
+<h3>Profitez de 3 Séances d'Essai <br>Gratuites au Dojo!</h3>
 
 </title>
 
@@ -12,7 +12,7 @@
 
 <div class="cards" >
 
- <h4>COURSE ADULTES</h4>
+ <h4 style="color: #f80000;">COURS ADULTES</h4>
  <p> MARDI</p> 
  <p> 19H30 - 21H00</p> 
  <p> VENDREDI </p>
@@ -22,7 +22,7 @@
 
 <div class="cards" >
 
- <h4> Course ENFANTS </h4>
+ <h4 style="color: #f80000;"> COURS ENFANTS </h4>
  <p> MERCREDI</p> 
  <p> 16H00 - 17H30 </p> 
  <p> VENDREDI </p>

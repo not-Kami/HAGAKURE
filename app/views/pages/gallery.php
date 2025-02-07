@@ -1,3 +1,5 @@
+<h1 class="title">Galerie</h1>
+
 <div class="gallery-container">
     <div class="gallery-row">
         <div class="gallery__item">

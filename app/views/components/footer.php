@@ -22,13 +22,12 @@
             <!-- Colonne centrale -->
             <div class="footer-column">
                 <ul class="footer-nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">HAKAGURE ▼</a></li>
-                    <li><a href="#">GALERIE</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+                    <li><a href="?page=accueil">HOME</a></li>
+                    <li><a href="?page=shop">SHOP</a></li>
+                    <li><a href="?page=hagakure">HAKAGURE</a></li>
+                    <li><a href="?page=galerie">GALERIE</a></li>
+                    <li><a href="?page=contact">CONTACT</a></li>
+                </ul>    </div>
 
             <!-- Colonne droite -->
             <div class="footer-column">

@@ -13,9 +13,6 @@
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-
-
-
 }
 
 /* Bouton Logo (attaché au menu et décalé un peu plus à gauche) */
@@ -53,8 +50,17 @@
 /* Barre latérale */
 nav {
     width: 100%;
-    padding-top: 80px;
+    background: transparent !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically (if needed) */
+    min-height: 100vh;
 }
+
 
 nav ul {
     list-style: none;
@@ -151,7 +157,6 @@ nav ul li a:hover {
     left: 20px;
     font-size: 30px;
     cursor: pointer;
-    color: var(--secondary-color);
     z-index: 1100; /* Always on top */
 }
 
@@ -200,4 +205,8 @@ nav ul li a:hover {
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
     z-index: 900;
+}
+
+.marginTop{
+    padding-top: 3em;
 }

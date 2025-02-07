@@ -133,6 +133,7 @@ padding:0;
 justify-content: center;
 text-align: center;
 text-transform: uppercase;
+font-family: 'Saira stencil one', sans-serif;
 }          
 
 .horaire {
@@ -225,6 +226,7 @@ background-size: cover;
 background-position: center; 
 background-repeat: no-repeat; 
 min-height: 25vh;
+
 
 }
 
